@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: VFXGraphVsShuriken
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: eaf0c77f1efa5fb4d8489aa5dd7f88fa, type: 3}
+  title: 
+  sections:
+  - heading: Comparing Particles
+    text: The built in method (and one you will see many tutorials use) for creating
+      particles is a system called Shuriken. If you right click on the hiearchy,
+      and select "Create/ParticleSystem", you are creating an effect with Shuriken.
+    linkText: 
+    url: 
+  - heading: 
+    text: The editor for Shuriken is a little bit more difficult to use for complex
+      effects. Shuriken particles are also only on the CPU. If you are building a
+      WebGL game (or targeting a platform without a dedicated GPU), Shuriken is your
+      only option.
+    linkText: 
+    url: 
+  - heading: 
+    text: For more modern platforms, you can use VFX Graph. VFX Graph runs almost
+      entirely on the GPU, so you can have a large number of particles in your scene.
+      It also supports more complicated effects.
+    linkText: 
+    url: 
+  - heading: 
+    text: You can take a look at the example particles in this scene to get a better
+      idea of how you can accomplish the same thing.
+    linkText: 
+    url: 
+  loadedLayout: 0
