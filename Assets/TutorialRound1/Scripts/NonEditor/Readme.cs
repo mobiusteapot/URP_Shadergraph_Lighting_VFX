@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+//
 
 [CreateAssetMenu(fileName = "Readme", menuName = "Readme", order = 100)]
 public class Readme : ScriptableObject

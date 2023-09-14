@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: VFXEffectGraphOnTimer
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: 
+  sections:
+  - heading: VFX Graph with C# Script
+    text: VFX Graphs can play animations from a spritesheet. This is useful for things
+      like fire, where you can make the sheet externally, or hand drawn effects.
+    linkText: 
+    url: 
+  - heading: Examples
+    text: Look at the "VFXChangeRateExample" for a simple example of changing the
+      float parameter that has been added to the graph. You can also read more about
+      this on the unity docs.
+    linkText: Unity API Docs
+    url: https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@14.0/manual/ComponentAPI.html
+  loadedLayout: 0
